@@ -1,0 +1,1733 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+ footer
+{
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 3rem;
+} 
+.FooterImg{
+    margin-top: 748px;
+    width: 100%;
+    position: absolute;
+}
+.Container1{
+    width: 50vw;
+    height: 19vh;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 15px 0px #00FF2F;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2vw;
+}
+.grn{
+  color: #00FF00;
+    
+}
+
+/* Container for first youtube video and contdown */
+
+.Container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+    gap: 3rem;
+}
+
+
+/* This all code for design a countdown  */
+
+.rg{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 0px 0px 17.5px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.video-container{
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* #countdown {
+    font-size: 10rem;
+    margin-top: 30px;
+  } */
+.emoji{
+    width: 50px;
+    height: 50px;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  
+  .timer {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+  
+
+  }
+  .values{
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.9rem;
+    margin-left: 10px;
+
+  }
+
+  .Cown{
+    background-color: black;
+    border: 2px solid #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: sans-serif;
+   box-shadow: 0px 0px 5px 0px #ffff; 
+  }
+ .Mycl{ 
+        margin: auto;
+        color: #fff;
+        margin-top: 1rem;
+        display: flex;
+        font-size: 1.2rem;
+        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        
+       
+      }
+  .payment{
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 24.5rem;
+    height: 5.5rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 10px 0px #00FF2F;
+    background-color: blue;
+    margin-top: 1rem;
+  }
+  .payment:hover{
+    background-color: #00FF2F;
+  }
+  a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .PlaneTxt{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+
+  }
+  .container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./Background_Img/Blur-BG-03.png);
+  }
+  .data
+  {
+    width: 29rem;
+    height: 6rem;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 55rem;
+  
+  }
+  .MentorImg
+  {
+    height: 50rem;
+  }
+  .GrBg
+  {
+    background-color: #00FF2F;
+    width: 6rem;
+    height: 3rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.2rem;
+    box-shadow: 0px 0px 10px 0px #00FF2F;
+    
+  }
+  .ParegraphD
+  {
+    font-size: 1.4rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+   .data
+  {
+    width: 30rem;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 1rem;
+  } 
+ .sub1container4
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+.Btn{
+    width: 30rem;
+    margin-top: 1.5rem;
+}
+.BtnCl
+{
+    font-size: 1.5rem;
+}
+.container6
+{
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container7{
+    width: 10rem;
+   margin: auto;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px #00FF2F;
+    margin-top: 1rem;
+}
+
+.container8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 2rem;
+  }
+  
+  .BoxContainer{
+    width: 28rem;
+    height: 8rem;
+    border: 2px solid #ffff;
+    box-shadow: 0px 0px 20px 0px #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .innerbox{
+    width: 25rem;
+    height: 8rem;
+    border: 2px solid #433c3c;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  
+  }
+  .MyBtn{
+    transform: rotate(-90deg);
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #00ff00;
+    box-shadow: 0px 0px 20px 0px #00ff00;
+  }
+  .newTxt
+  {
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .container9{
+    gap: 10rem;
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -0.7px;
+   
+  }
+  .grnTxt
+  {
+  color: #00FF00;
+  font-family: "Poppins", Sans-serif;
+  font-size: 5vh;
+  }
+  .one{
+    font-size: 1rem;
+  }
+ 
+  .srcImg{
+    width: 28rem;
+    height: 8rem;
+    background-color: #FFFFFF;
+    margin: 1rem;
+  }
+ .Enrzel
+ {
+    margin-top: 2rem;
+ }
+  
+.container12{
+    background-color: #FFFFFF;
+    height: auto;
+    width: 100%;
+}
+.container13
+{
+    margin-top: 2rem;
+    background: url(./Background_Img/Blur-BG-1-5.png);
+
+}
+.box{
+    width: 28rem;
+    height: 6.7rem;
+    border: 2px solid #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+     margin: 2rem; 
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    font-size: 1rem;
+  
+  }
+  .AdImg{
+    width: 5rem;
+    height: 5rem;
+  }
+  .mbSubContainer1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container14{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 60rem;
+     margin-top: 1.5rem; 
+   
+  }
+  .mentor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .JainImg
+  {
+    width: 25rem;
+    height: 30rem;
+  }
+  .Txt{
+    margin-top: 0.5rem;
+  }
+  .para{
+    margin: auto;
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .container15
+  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        background: url(./Background_Img/Blur-BG-1-5.png);
+        margin-top: 1.3rem;
+  }
+.mainbox
+{
+  width: 25rem;
+  height: 39rem;
+  background-color: #ffffff;
+  box-shadow:0px 0px 15px 0px #ffffff;
+  border-radius: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Mbox{
+  width: 24.5rem;
+  height: 8rem;
+  background-color: #00ff00;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:0px 0px 10px 0px #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: bolder;
+
+}
+.StarImg
+{
+  width: 7rem;
+  height: 7rem;
+  
+}  
+.Mtxt
+{
+  margin-left: -5rem;
+  
+}
+ 
+.mainbox
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pln{
+  color: #0F0F0F;
+  font-family: "Roboto", Sans-serif;
+  line-height: 33px;
+}
+.InnerContainer{
+  width:24.5rem;
+  height: 5rem;
+  display: flex; 
+  background-color: aliceblue;
+  border-radius: 15px;
+  /* box-shadow:0px 0px 10px 0px #ffffff; */
+  margin: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+
+}
+.BImg
+{
+  width: 3rem;
+  height: 3rem;
+  background-color:rgb(220, 210, 210);
+}
+.subcontainer15-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Frs{
+  width: 28rem;
+  height: 6rem;
+  background-color: #FFFFFF;
+  border: 2px solid wheat;
+  box-shadow: 0px 0px 10px 0px #e7e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 20px;
+  border-radius: 15px;
+
+
+}
+.SFirstCon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Asking{
+   color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.todo{
+  font-size: 1.3rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subcontainer15-1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.TinOneCon2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  
+}
+
+.certificate{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  
+}
+.HeadC{
+  font-size: 2rem;
+  color: #ffffff;
+  width: 22rem;
+}
+.ParaC{
+  color: #FFFFFF;
+  width: 19rem;
+}
+.se{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.elementor-heading-title
+{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    text-align: center;
+    
+}
+.Asking{
+  color: #FFFFFF;
+   font-family: "Roboto", Sans-serif;
+   font-size: 3rem;
+   font-weight: 400;
+
+}
+.container16
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementor-heading-title1
+{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.YoutubeContainer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2em;
+}
+
+.faq-heading{
+    border-bottom: #000000;
+    padding: 1.2rem 3.8rem;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color:#ffffff;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+   margin: auto; 
+   text-align: center; 
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #000000;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px; 
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.5rem;
+    display: none;
+    overflow: hidden;
+    
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 1.5rem;
+    color: #000000;
+    float: right;
+    margin-left: 5px;
+    background-color:#ffffff;
+    border: 2px solid #000000;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+
+
+@media screen and  (min-width : 200px) and (max-width : 349px){
+    .FooterImg
+    {
+        margin: auto;
+        height: 13vh;
+        margin-top: 90vh;
+    }
+    .Container1{
+        width: 80vw;
+        height: 13vh;
+        font-size: 10px;
+        font-weight: none;
+        line-height: none;
+        letter-spacing: 0px;
+    }
+    .rg{
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+    .Cown{
+        padding: 0.5rem;
+    }
+    .Mycl{
+         font-size: 0.2rem;
+    }
+    .values
+    {
+        font-size: 0.8rem;
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .payment{
+        width: 10rem;
+        height: 3rem;
+    }
+    .Mycl
+    {
+        font-size: 0.7rem;
+    }
+    a{
+        font-size: 0.6rem;
+    }
+   .emoji{
+    width: 30px;
+    height: 30px;
+   }
+   .Youtube1{
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+   }
+   .rg{
+    margin-top: -2rem;
+   }
+   .PlaneTxt{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 35px;
+    letter-spacing: 0.3px;
+   }
+   .container4
+   {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    
+   }
+   .MentorImg
+   {
+    width: 20rem;
+    height: 30rem;
+   }
+   .data
+   {
+    height: 15rem;
+    width: 14rem;
+   }   
+  .data {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       
+   }
+   .ParegraphD{
+    width:12rem ;
+    margin-bottom: 1rem;
+   }
+   .GrBg
+   {
+    margin: auto;
+   }
+   .Btn{
+    width: 14rem;
+    margin-top: 1rem;
+}
+.BtnCl
+{
+    font-size: 0.9rem;
+}
+.container9
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+
+.BoxContainer
+{
+  width: 15rem; 
+  font-size: 0.4rem; 
+}
+.MyBtn
+{
+    display: none;
+}
+.newTxt{
+    margin: auto;
+    text-align: center;
+}
+.container9
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.srcImg{
+    width: 11rem;
+    height: 7rem;
+    background-color: #FFFFFF;
+    margin-top: 2rem;
+    margin: 1rem;
+  }
+
+  .box{
+    width: 18rem;
+    height: 6.7rem;
+    margin: 1rem; 
+   font-size: 0.9rem;
+  
+  }
+  .ImgLog{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .mbSubContainer1{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .FontTxt{
+    margin-bottom: 2rem;
+  }
+  .innerbox
+  {
+    font-size: 1rem;
+  }
+  .container14{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: auto;
+    width: 19.5rem;
+     margin-top: 1rem; 
+     font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .mentor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .PtxtC
+  {
+    width: 15rem;
+  }
+  .JainImg
+  {
+    width: 13rem;
+    height: 22rem;
+  }
+  .Txt{
+    margin-top: 0.5rem;
+    
+  }
+  .para{
+    margin: auto;
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
+  .subcontainer15-1
+{
+  display: flex;
+ flex-direction: column;
+}
+.mainbox
+{
+  width: 19rem;
+  height: 35rem;
+
+  }
+  .Mbox{
+    width: 18.7rem;
+    height: 6rem;
+  }
+  .InnerContainer{
+    width: 18.7rem;
+    height: 5rem;
+  }
+  .Mtex{
+    font-size: 2rem;
+  }
+  .Frs{
+    width: 18.7rem;
+    height: 5rem;
+  }
+  .cont
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .YoutubeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .certificate{
+    width: 16rem;
+    height: 15rem;
+  }
+  .HeadC{
+    font-size: 1.5rem;
+    color: #ffffff;
+    width: 12rem;
+  }
+  .ParaC{
+    color: #FFFFFF;
+    width: 10rem;
+  }
+  .Asking
+  {
+    font-size: 1.5rem;
+  }
+  .IconImg
+  {
+    width: 2rem;
+    height: 2rem;
+  }
+  .YoutubeC
+  {
+    width: 19rem;
+    border-radius: 15px;
+  }
+  .elementor-heading-title
+  {
+    font-size: 1.5rem;
+  }
+ 
+
+}
+
+
+
+
+@media screen and  (min-width : 349px) and (max-width : 499px){
+    .FooterImg
+    {
+        margin: auto;
+        height: 10vh;
+        margin-top: 90vh;
+    }
+    .Container1{
+        font-size: 12px;
+        width: 60vw;
+        height: 13vh;
+    }
+    .Youtube1{
+        height: 170px;
+        width: 220px;
+        border-radius: 10px;
+       }
+
+    .rg{
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: -2rem;
+    }
+    .innerbox
+    {
+        font-size: 1rem;
+    }
+.emoji{
+    width: 2rem;
+    height: 2rem;
+}
+.Cown
+{
+    padding: 1rem;
+}
+.values
+{
+    gap: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+.payment
+{
+    width: 18rem;
+    height: 3rem;
+}
+a{
+    font-size: 1rem;
+}
+.PlaneTxt{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 35px;
+    letter-spacing: 0.3px;
+   }
+   .container4
+   {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    
+   }
+   .MentorImg
+   {
+    width: 20rem;
+    height: 30rem;
+   }
+   .data
+   {
+    height: 13rem;
+    width: 20rem;
+   }   
+  .data {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       
+   }
+   .ParegraphD{
+    width:17rem ;
+    margin-bottom: 2rem;
+   }
+   .GrBg
+   {
+    margin: auto;
+   }
+   .Btn{
+    width: 16rem;
+    margin-top: 1rem;
+}
+.BtnCl
+{
+    font-size: 1rem;
+}
+.BoxContainer
+{
+  width: 15rem; 
+  font-size: 0.4rem; 
+}
+.MyBtn
+{
+    display: none;
+}
+.newTxt{
+    margin: auto;
+    text-align: center;
+}
+.container9
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.srcImg{
+    width: 16rem;
+    height: 8rem;
+    background-color: #FFFFFF;
+    margin-top: 2rem;
+    margin: 1rem;
+  }
+
+  .box{
+    width: 18rem;
+    height: 6.7rem;
+    margin: 1rem; 
+   font-size: 0.9rem;
+  
+  }
+  .ImgLog{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .mbSubContainer1{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .FontTxt{
+    margin-bottom: 2rem;
+  }
+  .container14{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: auto;
+    width: 22rem;
+     margin-top: 1rem; 
+     font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .mentor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .JainImg
+  {
+    width: 13rem;
+    height: 22rem;
+  }
+  .Txt{
+    margin-top: 0.5rem;
+    
+  }
+  .para{
+    margin: auto;
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
+  .subcontainer15-1
+  {
+    display: flex;
+   flex-direction: column;
+  }
+  .subcontainer15-1
+  {
+    display: flex;
+   flex-direction: column;
+  }
+  .mainbox
+  {
+    width: 19rem;
+    height: 35rem;
+  
+    }
+    .Mbox{
+      width: 18.7rem;
+      height: 6rem;
+    }
+    .InnerContainer{
+      width: 18.7rem;
+      height: 5rem;
+    }
+    .Mtex{
+      font-size: 2rem;
+    }
+    .Frs{
+      width: 18.7rem;
+      height: 5rem;
+    }
+    .cont
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .YoutubeContainer{
+      display: flex;
+      flex-direction: column;
+    }
+    .cont
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .YoutubeContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .certificate{
+      width: 18rem;
+      height: 15rem;
+    }
+    .HeadC{
+      font-size: 1.5rem;
+      color: #ffffff;
+      width: 18rem;
+    }
+    .ParaC{
+      color: #FFFFFF;
+      width: 17rem;
+    }
+    .Asking
+    {
+      font-size: 1.5rem;
+    }
+    .IconImg
+    {
+      width: 2rem;
+      height: 2rem;
+    }
+    .YoutubeC
+    {
+      width: 19rem;
+      border-radius: 15px;
+    }
+    .elementor-heading-title
+    {
+      font-size: 1.5rem;
+    }
+
+    }
+
+
+
+@media screen and  (min-width : 499px) and (max-width : 769px){
+
+    .FooterImg
+    {
+        margin: auto;
+        height: 14vh;
+        margin-top: 90vh;
+    }
+    .Container1{
+        font-size: 12px;
+        width: 80vw;
+        height: 13vh;
+        font-size: 18px;
+    }
+    .Youtube1{
+        height: 280px;
+        width: 480px;
+        border-radius: 10px;
+       }
+    .rg{
+        margin-top: -2rem;
+
+    }
+    .emoji{
+        width: 3rem;
+        height: 3rem;
+    }
+    .Cown
+    {
+        padding: 1.4rem;
+    }
+    .values
+    {
+        gap: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .payment{
+        width: 20rem;
+        height: 4rem;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    .PlaneTxt{
+        font-size: 1.5rem;
+        font-weight: normal;
+        line-height: 35px;
+        letter-spacing: 0.3px;
+       }
+       .container4
+       {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+       }
+       .MentorImg
+       {
+        width: 30rem;
+        height: 35rem;
+       }
+       .data
+       {
+        height: 10rem;
+        width: 27rem;
+       }   
+      .data {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           
+       }
+       .ParegraphD{
+        width:20rem ;
+       }
+       .GrBg
+       {
+        margin: auto;
+       }
+       .Btn{
+        width: 20rem;
+        margin-top: 1rem;
+    }
+    .BtnCl
+    {
+        font-size: 1.4rem;
+    }
+    .newTxt{
+        margin: auto;
+        text-align: center;
+    }
+    .container9
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 1rem;
+    }
+    .srcImg{
+        width: 19rem;
+        height: 8rem;
+        background-color: #FFFFFF;
+        margin-top: 2rem;
+        margin: 1rem;
+      }
+      .box{
+        width: 15rem;
+        height: 11rem;
+        margin: 1rem; 
+       font-size: 0.9rem;
+      
+      }
+      .ImgLog{
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 0.5rem;
+      }
+      .mbSubContainer1{
+        display: flex;
+        gap: 0.5rem;
+      }
+      .FontTxt{
+        margin-bottom: 3rem;
+      }
+      .container14{
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+        margin: auto;
+        width: 28rem;
+         margin-top: 1rem; 
+         font-family: "Roboto", Sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+      }
+      .mentor{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .JainImg
+      {
+        width: 13rem;
+        height: 22rem;
+      }
+      .Txt{
+        margin-top: 0.5rem;
+        
+      }
+      .para{
+        margin: auto;
+        font-size: 1rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+      }
+      .subcontainer15-1
+      {
+        display: flex;
+       flex-direction: column;
+      }
+    
+      .cont
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .YoutubeContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .certificate{
+        width: 23rem;
+        height: 15rem;
+      }
+      .PtxtC
+      {
+        width: 30rem;
+      }
+      .container14
+      {
+        background: none;
+      }
+      .HeadC{
+        font-size: 2rem;
+        color: #ffffff;
+        width: 22rem;
+      }
+      .ParaC{
+        color: #FFFFFF;
+        width: 21rem;
+      }
+      .Asking
+      {
+        font-size: 1.9rem;
+      }
+      .IconImg
+      {
+        width: 3rem;
+        height: 3rem;
+      }
+      .YoutubeC
+      {
+        width: 22rem;
+        border-radius: 15px;
+      }
+      .elementor-heading-title
+      {
+        font-size: 1.5rem;
+      }
+      .mainbox
+      {
+        width: 27rem;
+    
+    }
+    .Mbox
+    {
+      width: 26.9rem;
+      height: 5.5rem;
+      margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and  (min-width : 769px) and (max-width : 1023px){
+
+    .FooterImg
+    {
+        margin: auto;
+        height: auto;
+        margin-top: 95vh;
+
+    }
+    .Container1{
+        font-size: 14px;
+        width: 96vw;
+        font-size: 30px;
+        border-radius: 15px;
+        gap: 0.5rem;
+    }
+
+    .Youtube1{
+        height: 50vh;
+        width: 45vw;
+        border-radius: 10px;
+       } 
+    .Cown
+        {
+            padding: 1.5rem;
+        }
+
+    .values
+    {
+        gap: 1.2rem;
+    }
+    .payment
+    {
+        width: 20rem;
+    }
+    .PlaneTxt{
+        font-size: 1.5rem;
+        font-weight: normal;
+        line-height: 35px;
+        letter-spacing: 0.3px;
+
+       }
+       .container4
+       {
+        gap: 1rem;
+        display: flex; 
+        margin-right: 3rem;
+       }
+       .MentorImg
+       {
+        width: 25rem;
+        height: 30rem;
+       }
+       .data
+       {
+        height: 10rem;
+        width: 25rem;
+        text-align: center;
+       }   
+       .ParegraphD{
+        width:auto ;
+        margin-bottom: 2rem;
+       }
+       .GrBg
+       {
+        margin: auto;
+       }
+       .Btn{
+        width: 25rem;
+        margin-top: 1rem;
+        height: 4rem;
+    }
+    .BtnCl
+    {
+        font-size: 1.5rem;
+    }
+    .container9
+    {
+        gap: 1rem;
+    }
+    .ImgLog{
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 0.5rem;
+      }
+      .container14
+      {
+        width: 45rem;
+      }
+      .para{
+        margin: auto;
+        font-size: 1rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+      }
+      .subcontainer15-1
+      {
+        display: flex;
+       /* flex-direction: column; */
+      }
+      .mainbox
+  {
+    width: 19rem;
+    height: 35rem;
+  
+    }
+    .Mbox{
+      width: 18.7rem;
+      height: 6rem;
+    }
+    .InnerContainer{
+      width: 18.7rem;
+      height: 5rem;
+    }
+    .Mtex{
+      font-size: 2rem;
+    }
+    .Frs{
+      width: 18.7rem;
+      height: 5rem;
+    }
+    .cont
+    {
+      display: flex;
+      /* flex-direction: column; */
+    }
+   
+    .YoutubeContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+     
+    }
+    .certificate{
+      width: 18rem;
+      height: 22rem;
+    }
+    .HeadC{
+      font-size: 1.5rem;
+      color: #ffffff;
+      width: 12rem;
+    }
+    .ParaC{
+      color: #FFFFFF;
+      width: 10rem;
+    }
+    .Asking
+    {
+      font-size: 1.5rem;
+    }
+    .IconImg
+    {
+      width: 2rem;
+      height: 2rem;
+    }
+    .YoutubeC
+    {
+      width: 30rem;
+      border-radius: 15px;
+    }
+    .elementor-heading-title
+    {
+      font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media screen and  (min-width : 1023px) and (max-width : 1350px){
+   
+    .FooterImg
+    {
+         margin: auto; 
+        height: auto;
+        margin-top: 90vh;
+    
+    }
+    .Container1{
+        font-size: 16px;
+        width: 96vw;
+        font-size: 46px;
+        border-radius: 15px;
+    }
+     .Youtube1{
+        height: 55vh;
+        width: 50vw;
+        border-radius: 10px;
+       } 
+       .data
+       {
+        width:40rem ; 
+       }
+       .container4{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+       }
+       .ImgLog{
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 0.5rem;
+      }
+      .para{
+        margin: auto;
+        font-size: 1rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        line-height: 1.5;
+      }
+      .container14
+      {
+        width: 50rem;
+      }
+      .para{
+        margin: auto;
+        font-size: 1rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+      }
+      .YoutubeC
+      {
+        width: 15rem;
+      }
+    
+
+}
