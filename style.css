@@ -700,9 +700,6 @@ flex-direction: column;
     /* Unicode character for "minus" sign (-) */
 }
 
-
-
-
 @media screen and  (min-width : 200px) and (max-width : 349px){
     .FooterImg
     {
@@ -989,10 +986,10 @@ flex-direction: column;
         height: 10vh;
         margin-top: 90vh;
     }
-    .Container1{
-        font-size: 12px;
-        width: 60vw;
-        height: 13vh;
+    .Container1 {
+      font-size: 13px;
+      width: 71vw;
+      height: 26vh;
     }
     .Youtube1{
         height: 170px;
@@ -1015,29 +1012,33 @@ flex-direction: column;
     width: 2rem;
     height: 2rem;
 }
-.Cown
-{
-    padding: 1rem;
+.Cown {
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
 }
 .values
 {
-    gap: 0.5rem;
-    margin-bottom: 0.1rem;
+    gap: 0.8rem;
+    margin-top: -0.3rem;
 }
 .payment
 {
-    width: 18rem;
-    height: 3rem;
+    width: 14rem;
+    height: 2rem;
 }
-a{
+/* a{
     font-size: 1rem;
+} */
+.PlaneTxt {
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 35px;
+  letter-spacing: 0.3px;
+
+  padding: 0 1rem;
 }
-.PlaneTxt{
-    font-size: 1.5rem;
-    font-weight: normal;
-    line-height: 35px;
-    letter-spacing: 0.3px;
-   }
    .container4
    {
     gap: 1rem;
@@ -1053,9 +1054,16 @@ a{
    }
    .data
    {
+    /* margin-top: -2.5rem; */
     height: 13rem;
     width: 20rem;
-   }   
+   }  
+   .sub1container4{
+    margin-top: -3rem;
+   } 
+   .MentorImg{
+    margin-top: -2rem;
+   }
   .data {
        display: flex;
        justify-content: center;
@@ -1096,7 +1104,7 @@ a{
 {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
     gap: 1rem;
 }
@@ -1106,6 +1114,9 @@ a{
     background-color: #FFFFFF;
     margin-top: 2rem;
     margin: 1rem;
+  }
+  .JainImg{
+    margin-top: -3rem;
   }
 
   .box{
@@ -1146,6 +1157,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bolder;
   }
   .JainImg
   {
@@ -1156,16 +1168,19 @@ a{
     margin-top: 0.5rem;
     
   }
-  .para{
+  .para {
     margin: auto;
     font-size: 1rem;
+    font-family: times-new-roman;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: center;
-  }
+    width: 277px;
+    margin-top: -0.5rem;
+}
   .subcontainer15-1
   {
     display: flex;
@@ -1191,11 +1206,12 @@ a{
       height: 5rem;
     }
     .Mtex{
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
     .Frs{
       width: 18.7rem;
       height: 5rem;
+      padding: 0 1rem;
     }
     .cont
     {
@@ -1221,9 +1237,10 @@ a{
     .certificate{
       width: 18rem;
       height: 15rem;
+      margin-top: -2rem;
     }
     .HeadC{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       color: #ffffff;
       width: 18rem;
     }
@@ -1237,8 +1254,12 @@ a{
     }
     .IconImg
     {
-      width: 2rem;
-      height: 2rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .NoImg{
+      width: 1.5rem;
+      height: 1.5rem;
     }
     .YoutubeC
     {
@@ -1247,8 +1268,52 @@ a{
     }
     .elementor-heading-title
     {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+       padding: 0rem 1rem;
     }
+    .pln {
+      color: #0F0F0F;
+      font-family: "Roboto", Sans-serif;
+      line-height: 24px;
+      font-size: 1rem;
+      padding: 0 1rem;
+  }
+  .InnerContainer {
+    width: 18.7rem;
+    height: 5rem;
+    padding: 0 1rem;
+    font-size: 0.8rem;
+}
+.todo{
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.video-container{
+  margin-top: 0rem;
+}
+main{
+  margin-top: -1rem;
+}
+.faq-heading {
+  border-bottom: #000000;
+  padding: 1.2rem 3.8rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2rem;
+}
+.faq-page {
+  /* background-color: #eee; */
+  color: #ffffff;
+  cursor: pointer;
+  width: 88%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-size: 0.8rem;
+}
+
+
 
     }
 
