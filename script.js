@@ -40,6 +40,7 @@ function updateCountdown() {
 updateCountdown(); // Initial call to update immediately
 setInterval(updateCountdown, 1000); // Update every second
 
+
 function toggleAnswer(element) {
     var answer = element.nextElementSibling;
     if (answer.style.display === "block") {
@@ -48,5 +49,7 @@ function toggleAnswer(element) {
         answer.style.display = "block";
     }
 }
+
+
 
 
